@@ -31,6 +31,6 @@ mixedCase.toUpperCase() === mixedCase // false
 var string = 'UPPERCASE'
 
 function sayHiToGrandma(string) {
-  if (string === string.toUpperCase)
+  if (string.toUpperCase() === string)
   return "YES INDEED!"
 }
